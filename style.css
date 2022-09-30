@@ -1,6 +1,7 @@
 .container{
 	width: 80%;
 	max-width: 90rem;
+	box-sizing: border-box;
 	margin: 1rem auto;
 	padding: 1rem;
 	background: white;
@@ -46,3 +47,4 @@
 
 .add-to-cart img {
 	width: 2.8rem;
+}
