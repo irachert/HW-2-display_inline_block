@@ -9,20 +9,18 @@ h4 {
   margin: 1rem auto;
   padding: 1rem;
   background: white;
-  text-align: center;
 }
-.item {
-  /* width: 25%; */
+.shop_item {
   padding: 1rem;
   margin: 0.5rem auto;
   box-sizing: border-box;
   position: relative;
   float: left;
 }
-.item img {
+.shop_item img {
   max-width: 100%;
 }
-.item:hover {
+.shop_item:hover {
   transform: scale(1.1);
   z-index: 2;
   transition: transform 2s;
@@ -33,7 +31,6 @@ h4 {
   border-block: solid #9b99cc;
   writing-mode: horizontal-tb;
   box-sizing: border-box;
-  text-align: left;
 }
 .price {
   font-weight: 700;
@@ -50,38 +47,4 @@ h4 {
   width: 2.8rem;
 }
 
-@media screen and (max-width: 599px) {
-  .item {
-    width: 100%;
-  }
-  .description {
-    font-size: 1.2rem;
-  }
-}
 
-@media screen and (min-width: 600px) {
-  .item {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 90%;
-  }
-  .item {
-    width: 33.3333%;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .item {
-    width: 25%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .item {
-    width: 20%;
-  }
-}
